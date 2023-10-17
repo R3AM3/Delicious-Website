@@ -1,0 +1,551 @@
+body{
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
+#firstsection{
+  position: relative;
+  background-image: url("../images/hdelicious-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.navbar ul li a{
+  color: white;
+}
+
+.navbar ul li a:hover{
+  color: #DAA520;
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+
+
+.headline{
+  padding-top: 100px;
+  text-align: right;
+  display: block;
+  margin: auto;
+}
+
+.headlinetitle{
+  font-size: 5rem;
+}
+
+.dotdecoration{
+  color: 	#DAA520;
+}
+
+.booknowbutton{
+  border: 3px double #DAA520;
+  background: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px;
+  color: white;
+}
+
+#secondsection{
+  position: relative;
+  margin: auto;
+}
+
+.delicacyrow1{
+  padding-bottom: 20px;
+}
+
+.circularimage{
+  border-radius: 50%;
+}
+
+h5.delicacytitle{
+  color: #daa520;
+    padding-top: 50px;
+}
+
+.delicacytitle{
+  text-align: center;
+
+}
+
+
+.delicacycontent{
+
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+
+#thirdsection{
+  background-color: #202020;
+  position: relative;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+#thirdsection p{
+  line-height: 2;
+}
+
+.storyimage{
+  /* height: 500px;
+  position: absolute;
+  left: 60%;
+  bottom: 15%;
+  transform: translate(50px, 50px); */
+  width: 100%;
+  
+}
+
+.storycontent{
+  padding-left: 150px;
+}
+
+.storytitle{
+  color: #DAA520;
+}
+
+#statssection{
+  position: relative;
+  background-image: linear-gradient(rgba(228, 155, 15, 0.3),rgba(228, 155, 15, 0.3)),url("../images/hdelicious-13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.statsrow{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.stats{
+  color: white;
+}
+
+h1.stats{
+  font-size: 4rem;
+}
+
+#chefsection{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+#chefsection .chefcards{
+  display: flex;
+  justify-content: center;
+}
+
+.cheftitle{
+  color: #DAA520;
+}
+
+#chefsection .card {
+  box-shadow: 1px 2px 20px 1px black;
+  transition: 0.3s;
+  /* border-radius: 25px; 5px rounded corners */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+
+#chefsection img {
+  border-radius: 50px;
+  
+}
+
+#chefsection .card{
+  border-radius: 50px !important;
+  /* box-shadow: 5px 2px 15px  black; */
+  width: 35rem;
+}
+
+
+
+.chefauthor{
+  padding-bottom: 50px;
+}
+
+#chefsection .social-icon{
+  color: #6f4400;
+}
+
+#chefsection .social-icon:hover{
+  color: white;
+}
+
+
+
+#quote{
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0, 0.6)), url('../images/hdelicious-1.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.quotediv{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.quotecontent{
+  font-size: 2rem;
+}
+
+.quoteauthor{
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#menulist{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.menutitle{
+  color: #DAA520;
+}
+
+#menulist img{
+  border-radius: 50%;
+  
+}
+
+
+#menulist .listmenu{
+  padding-bottom: 20px;
+  
+}
+
+
+
+.foodname{
+  padding-top: 60px;
+  padding-left: 60px;
+  float: left;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #868686;
+}
+
+#menulist hr{
+  padding-top: 55px;
+  width: auto;
+  border:none;
+  border-bottom:1px dashed black;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:50%;
+}
+
+.price{
+  left: 44.5%;
+  top: 31%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price2{
+  left: 78%;
+  top: 31%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price3{
+  left: 45.5%;
+  top: 47%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price4{
+  left: 80.5%;
+  top: 47%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price5{
+  left: 45.5%;
+  top: 63.5%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price6{
+  left: 78%;
+  top: 63.5%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price7{
+  left: 45%;
+  top: 79.5%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+.price8{
+  left: 79.5%;
+  top: 79.5%;
+  position: absolute;
+  border: 1px dotted black;
+  padding: 2px 10px 2px 10px;
+  text-align: center;
+  color: #DAA520;
+  /* transform: translate(-7px, 3px); */
+}
+
+#blog{
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.blogtitle{
+  color: #DAA520;
+}
+
+.blog-cards{
+  padding-bottom: 150px;
+}
+
+.blogauthor{
+  padding-bottom: 50px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+  filter: invert(100%);
+}
+
+.card-body{
+  text-align: center;
+}
+
+.carousel-inner{
+  display: inline-block;
+  width: 75% !important;
+  
+}
+
+.carousel-control-next{
+  right: 50px !important;
+}
+
+.carousel-control-prev{
+  left: 30px !important;
+}
+
+.cardbtn{
+  background: none;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+
+
+#chefsection .row{
+  justify-content: center;
+}
+
+#contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact h1{
+  padding-bottom: 50px;
+}
+
+.contact{
+  
+  box-shadow: 5px 10px 15px #dcdcdc;
+  /* padding-bottom: 100px; */
+}
+
+.contactheader{
+  text-align: center;
+}
+
+.contacttitle{
+  color: #DAA520;
+}
+
+.contacticons{
+  color: #ce9e51;
+}
+
+.contactrow{
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+.contactinfo{
+  background-color: #202020;
+  display: block;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  
+  width: 100%;
+}
+
+.contactcontenttitle{
+  color: white;
+}
+
+.contactcontent{
+  color: #777777;
+  font-weight: bold;
+}
+
+.forminfo{
+  padding-top: 100px;
+}
+
+.namelabels{
+  color: grey;
+  
+}
+
+.lastname{
+  text-indent: 369px;
+  padding-bottom: 20px;
+}
+
+#fname{
+  width: 50%;
+  height: 50px;
+  margin-right: 1%;
+}
+
+#lname{
+  
+  width: 48%;
+  height: 50px;
+}
+
+#email{
+  width: 100%;
+  height: 50px;
+  
+}
+
+.forminfo textarea{
+  width: 100%;
+  height: 200px;
+}
+
+.formbutton{
+  border: none;
+  outline: 5px double #daa520;
+  background: #DAA520;
+  border-radius: 25px;
+  padding: 10px 20px 10px;
+  color: white;
+}
+
+.formbutton:hover{
+  background-color: white;
+  color: #DAA520;
+  border: none;
+}
+
+#contact .col-lg-8{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(rgba(56, 56, 56, 0.8),rgba(56, 56, 56, 0.8)),url('../images/hdelicious-20.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  color: white;
+}
+
+footer img{
+  padding-bottom: 50px;
+}
+
+footer p{
+  padding-bottom: 20px;
+  font-size: 18px;
+
+}
+
+.socialbutton{
+  border-radius: 50%;
+  border: 3px double #DAA520;
+  background: none;
+  width: 50px;
+  height: 50px;
+
+
+}
+
+.social-icon{
+  color: white;
+  padding: 5px;
+}
+
+
+.socialbutton:hover{
+  background-color:  #DAA520;
+}
+
+.footerend{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
